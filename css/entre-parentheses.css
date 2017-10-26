@@ -5,3 +5,8 @@
 .top-buffer {
     margin-top:20px;
 }
+
+a.deco-none {
+    color: inherit;
+    text-decoration:none;
+}
