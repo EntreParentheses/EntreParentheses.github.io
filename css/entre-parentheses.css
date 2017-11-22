@@ -2,10 +2,6 @@
     margin-top: -75px;
 }
 
-.top-buffer {
-    margin-top:20px;
-}
-
 a.deco-none {
     color: inherit;
     text-decoration:none;
@@ -36,4 +32,47 @@ a.deco-none {
     vertical-align: middle;
     top: -1px;
     fill: white;
+}
+
+.pricelist {
+    width: 100%;
+}
+
+.pricelist td {
+    padding: 8px 12px;
+}
+
+.pricelist td.text,
+.pricelist td.subtext {
+    font-style: italic;
+}
+
+.pricelist td.subtext {
+    padding-top: 0px;
+}
+
+.soinDesc {
+    color: dimgrey;
+    font-size: 88%;
+}
+
+.pricelist td.price {
+    width: 10%;
+    text-align: right;
+    font-weight: 600;
+}
+
+.odd {
+    background-color: #80808080;
+}
+
+.even {
+    background-color: #80808020;
+}
+
+.pricelist_annotation {
+    color: #45a949;
+    font-size: 90%;
+    font-style: italic;
+    font-weight: 600;
 }
