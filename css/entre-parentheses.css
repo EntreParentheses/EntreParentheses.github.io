@@ -76,3 +76,11 @@ a.deco-none {
     font-style: italic;
     font-weight: 600;
 }
+
+.pricelist_annotation a {
+    color: #45a949;
+    font-size: 90%;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: underline;    
+}
